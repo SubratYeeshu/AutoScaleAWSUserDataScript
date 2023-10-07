@@ -7,7 +7,7 @@ sudo apt install npm -y
 mkdir -p /home/ubuntu/.ssh
 ssh-keyscan -t rsa github.com > /home/ubuntu/.ssh/known_hosts
 git clone https://github.com/SubratYeeshu/APIGateway_FlightReservationSystem.git
-cd API_Gateway
+cd APIGateway_FlightReservationSystem
 sudo npm install
 # start the app
 sudo npx pm2 start index.js 
